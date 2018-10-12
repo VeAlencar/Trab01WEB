@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <title>Extra: Invasive Team</title>
+        
+        <link rel="stylesheet" type="text/css" href="extra.css"/>
+
+        <link rel="stylesheet" type="text/css" href="main.css"/>
+
+        <link type="text/css" rel="stylesheet" href="fontawesome/css/all.min.css"/> 
+
+        <script type="text/javascript" src="java.js"></script>
+        <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
+    </head>
+    <body>
+    <header>
+        <!-- menuzinho do nav -->
+        <nav class="navbar">
+           <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#time">Nosso time</a></li>
+                <li><a href="objetivo.html">Objetivos</a></li>
+                <li><a href="trabalhos.html">Trabalhos</a></li>
+                <li><a href="midia.html">Mídia</a></li>
+                <li><a href="extra.html">Extra</a></li>
+                <li><a href="index.html#contato">Contato</a></li>
+            </ul>
+         </nav>
+    </header>
+    <main>
+        <section class="nos">
+            <h1>EXTRAS</h1>
+            <h2>Conteúdo adicional usado para o desenvolvimento do site</h2>
+            <p>Abaixo, uma lista do conteúdo usado nesta página web adicional ao mostrado em sala. Os exemplos são retirados do próprio código e estão ocultadas as partes que não são interessantes ao exemplo.</p>
+            
+            <nav class="tabela">
+                <ol class="indice">
+                    <li><a href="#item1">Uso de @keyframes em CSS</a></li>
+                    <li><a href="#item2">Uso dos parâmetros list-style-type, position e overflow em CSS</a></li>
+                    <li><a href="#item3">Uso de gradientes em CSS</a></li>
+                    <li><a href="#item4">Modificador nas cores de links</a></li>
+                    <li><a href="#item5">Uso de sombras em elementos</a></li>
+                    <li><a href="#item6">Uso de embed codes</a></li>
+                    <li><a href="#item7">Uso de funções Javascript</a></li>
+                    <li><a href="#item8">Uso do code-prettify para inserir os exemplos de código</a></li>
+                </ol>
+            </nav>
+            <hr id="item1"/> <!-- Separador de mídia -->
+            <h3>1. Uso de @keyframes em CSS</h3>
+            <p>As regras de @keyframe podem ser usadas para criar animações de itens e objetos CSS. Neste código, foi usado para o slideshow desta página. Mais informações podem ser conseguidas <a href="https://www.w3schools.com/cssref/css3_pr_animation-keyframes.asp" target="_blank">neste link</a>. O exemplo de uso está abaixo:</p>
+            <pre class="prettyprint">
+/* imagem de slideshow */
+.slide {
+    max-width: 100%;
+    animation: fadeIn 5s infinite;
+}
+
+/* Define o efeito de fade-in */
+@keyframes fadeIn {
+    0%{
+        opacity: 0;
+    }
+    20%{
+        opacity: 1;
+    }
+    80%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+            </pre>
+            
+            <hr id="item2"/> <!-- Separador de mídia -->
+            <h3>2. Uso dos parâmetros list-style-type, position e overflow em CSS</h3>
+            <p>O parâmetro list-style-type permite editar o ícone que aparecerá numa lista HTML. Se usada a palavra none, nada será usado para indicar os tópicos. Mais informações podem ser conseguidas <a href="https://www.w3schools.com/cssref/pr_list-style-type.asp" target="_blank">neste link</a>.</p>
+            <p>O parâmetro position permite que se indique onde um objeto ficará na página, obrigatóriamente. Foi usado para fixar os navbars na página, por exemplo. Mais informações podem ser conseguidas <a href="https://www.w3schools.com/cssref/pr_class_position.asp" target="_blank">neste link</a>.</p>
+            <p>O parâmetro overflow indica o que ocorrerá com um conteúdo da página caso ela exceda seu espaço originalmente destinado. Mais informações podem ser conseguidas <a href="https://www.w3schools.com/CSSref/pr_pos_overflow.asp" target="_blank">neste link</a>.</p>
+            <p>Um exemplo de implementação está abaixo:</p>
+            <pre class="prettyprint">
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 12%;
+    background-color: #6c1427;
+    height: 100%;
+    position: fixed;
+    overflow: auto;
+}
+            </pre>
+            
+            <hr id="item3"/> <!-- Separador de mídia -->
+            <h3>3. Uso de gradientes em CSS</h3>
+            <p>Permite criar gradientes de cores no fundo de objetos num geral. Neste site, foi utilizado nas linhas de divisão (o &lthr&gt). Mais informações podem ser conseguidas <a href="https://www.w3schools.com/css/css3_gradients.asp" target="_blank">neste link</a>. O exemplo está logo abaixo:</p>
+            <pre class="prettyprint">
+hr {
+    background-image:linear-gradient(to right, #6c1427, #d7284e, #6c1427);
+}
+            </pre>
+            
+            <hr id="item4"/> <!-- Separador de mídia -->
+            <h3>4. Modificador nas cores de links</h3>
+            <p>Na tag &lta&gt, é possível alterar, via CSS, as cores padrão dos links. O parâmetro .link especifica a cor no geral, .visited quando a página já foi clicada e .active no momento que é clicada Mais informações podem ser conseguidas <a href="https://www.w3schools.com/Css/css_link.asp" target="_blank">neste link</a>. O exemplo de uso está a seguir:</p>
+            <pre class="prettyprint">
+.nos a:link {
+    color: #e50a43;
+}
+
+.nos a:visited {
+    color: #d7284e;
+}
+
+.nos a:active {
+    color: #330a15;
+}
+            </pre>
+            
+            <hr id="item5"/> <!-- Separador de mídia -->
+            <h3>5. Uso de sombras em elementos</h3>
+            <p>Em CSS, é possível criar sombra em elementos usado o parâmetro box-shado. Mais informações podem ser conseguidas <a href="https://www.w3schools.com/cssref/css3_pr_box-shadow.asp" target="_blank">neste link</a>. O exemplo de uso está a seguir:</p>
+            <pre class="prettyprint">
+.grupo {
+    box-shadow: 1px 1px 10px 2px #b9b9b9;
+}
+            </pre>
+            
+            <hr id="item6"/> <!-- Separador de mídia -->
+            <h3>6. Uso de embed codes</h3>
+            <p>Foram usados iframes disponibilizados pelo YouTube e pelo Spotify para inserir conteúdos na página. Mais sobre o iframe do YouTube pode ser visto <a href="https://support.google.com/youtube/answer/171780?hl=pt-BR" target="_blank">aqui</a> e sobre o Spotify <a href="https://developer.spotify.com/documentation/widgets/generate/play-button/" target="_blank">aqui</a>.</p>
+            
+            <hr id="item7"/> <!-- Separador de mídia -->
+            <h3>7. Uso de funções Javascripto</h3>
+            <p>Foi usada uma função em Javascript para fazer o carrossel de imagens encontrado na página principal. A implementação do código está mostrada abaixo.</p>
+            <pre class="prettyprint">
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("slide");
+    for (i = 0; i &lt x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex &gt x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 5000);    
+}
+            </pre>
+            
+            <hr id="item8"/> <!-- Separador de mídia -->
+            <h3>8. Uso do code-prettify para inserir os exemplos de código</h3>
+            <p>As caixas com os códigos HTML e CSS usadas nesta seção utilizam o code-prettify da Google, disponíveis para uso no repositório GitHub a seguir: <a href="https://github.com/google/code-prettify" target="_blank">neste link</a>.</p>
+        
+            <hr/> <!-- Separador de mídia -->
+        </section>
+    <footer>
+        <p>Website feito para fins acadêmicos, na disciplina Programação Web - 2s2018</p>
+        <p>Brenda Alexsandra - Rodrigo Martins - Verussa Caridi</p>
+        <p>Faculdade de Tecnologia Unicamp - Limeira, 2018</p>
+    </footer>
+    </main>
+</body>
+</html>

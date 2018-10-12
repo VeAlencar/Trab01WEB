@@ -1,0 +1,43 @@
+/* Dá um espaço do texto em relação a margem */
+.nos {
+    margin-top: 0%;
+    padding: 2rem;
+} 
+
+.nos h3 {
+    text-align: left;
+    margin-right: 10%;
+    margin-left: 14%;
+}
+
+/* Texto na parte principal*/
+.nos p {  
+    text-align: justify;
+    color: #333;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.nos a:link {
+    color: #e50a43;
+}
+
+.nos a:visited {
+    color: #d7284e;
+}
+
+.nos a:active {
+    color: #330a15;
+}
+
+pre {
+    background-color: #f6f6f6;
+    margin-right: 12%;
+    margin-left: 12%;
+}
+
+.indice {
+    text-align: justify;
+    margin-right: 10%;
+    margin-left: 12%;
+}

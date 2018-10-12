@@ -1,0 +1,66 @@
+.nos{
+    padding-top: 3rem;
+    margin-top: 0%;
+}
+
+.nos h1, h2, h3{
+    font-family:Verdana,sans-serif;
+    text-align: center;
+    font-weight:400;
+    margin-top: 2%;
+}
+
+.text {  
+        text-align: justify;
+        color: #333;
+        margin-right: 10%;
+        margin-left: 10%;
+}
+
+.nos p {  
+    text-align: justify;
+    color: #333;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+pre {
+    background-color: #f6f6f6;
+    margin-right: 12%;
+    margin-left: 12%;
+}
+
+.indice {
+    background-color: #333;
+    color:white;
+    text-align: justify;
+    margin-right: 10%;
+    margin-left: 10%;
+    border-radius: 1%;
+}
+.indice a{
+    margin-left: 1%;
+    color: white;
+    text-decoration: none;
+}  
+
+
+.indice li{
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+
+.tabela li:hover{
+    background-color: black;
+}
+
+tabela{
+    background-color: #333;
+}
+hr {
+    height: 3px;
+    width: 80%;
+    border: 0;
+    box-shadow: 0 12px 12px -12px;
+    background-image:linear-gradient(to right, #6c1427, #d7284e, #6c1427);
+}

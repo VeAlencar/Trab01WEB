@@ -1,0 +1,91 @@
+/* css body */
+body {
+    background-color: #e6e6e6;
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+    align-content: flex-end;
+    font-family:Roboto, "Helvetica", sans-serif;
+}
+
+/* menuzinho do nav */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 12%;
+    background-color: #6c1427;
+    height: 100%;
+    position: fixed;
+    overflow: auto;
+}
+
+main {
+    margin-left: 12%;
+}
+
+li {
+    float: none;
+}
+
+li a {
+    display: block;
+    color: #e6e6e6;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+li a:hover {
+    background-color: #e6e6e6;
+    color: #6c1427;
+}
+
+/* Formatação da barra de divisão */
+hr {
+    margin-bottom: 2rem;
+    height: 3px;
+    width: 80%;
+    border: 0;
+    box-shadow: 0 12px 12px -12px;
+    background-image:linear-gradient(to right, #6c1427, #d7284e, #6c1427);
+}
+
+/* Formatação dos títulos H1 e H2 */
+.nos h1, h2 {
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 2%;
+    font-family: Lato, "Futura", sans-serif;
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+h1 {
+    font-size: 2rem;
+}
+h2 {
+    font-size: 1.8rem;
+}
+
+/* Formatação dos título H3 */
+h3 {
+    text-align: center;
+    font-weight:bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Lato, "Futura" sans-serif;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+/*footer*/
+footer{
+    background-color: #6c1427;
+    color: #e6e6e6;
+    padding: .2rem;  
+    height: 20%;
+    text-align: center;
+    font-size: 0.7rem;
+}
+

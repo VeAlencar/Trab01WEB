@@ -1,0 +1,47 @@
+/* Dá um espaço do texto em relação a margem */
+.nos {
+    margin-top: 0%;
+    padding: 2rem;
+}
+
+/* Elemento com as informações do grupo */
+.grupo {
+    height: 1200px;
+    vertical-align: top;
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+    margin-left: 2%;
+    margin-bottom: 1%;
+    margin-right: 1%;
+    box-shadow: 1px 1px 10px 2px #b9b9b9;
+    border-radius: 25px;
+}
+
+/* Formatação das imagens do grupo */
+.verussa {
+    width: 70%;
+    border-radius: 100%; 
+    margin-top: 5%;  
+    padding: 2rem;
+}
+.rodrigo {
+    width: 70%;
+    border-radius: 100%; 
+    margin-top: 5%;  
+    padding: 2rem;
+}
+.brenda { 
+    width: 70%;
+    border-radius: 100%; 
+    margin-top: 5%;  
+    padding: 2rem;  
+}
+
+ /* Texto sobre os membros */
+.text {  
+    text-align: justify;
+    color: #333;
+    margin-right: 10%;
+    margin-left: 10%;
+}
